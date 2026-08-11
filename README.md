@@ -2,12 +2,14 @@
 
 Apresentações em HTML publicadas via **GitHub Pages**.
 
-## Apresentação atual
+## Apresentações
 
-- **Portfólios Estratégicos de IA — HAM** → [`index.html`](index.html)
+- **Portfólios Estratégicos de IA — HAM** (deck de slides) → [`index.html`](index.html)
+  `https://joanescardoso.github.io/apresentacoes/`
+- **IA no HAM — Resultados e Prestação de Contas** (relatório em lista expansível) → [`resultados/index.html`](resultados/index.html)
+  `https://joanescardoso.github.io/apresentacoes/resultados/`
 
-Após o deploy, fica disponível em:
-`https://joanescardoso.github.io/apresentacoes/`
+> Nesta segunda versão, telas internas têm dados sensíveis ocultados (nomes de pessoas/pacientes tarjados; valores financeiros desfocados; CPF coberto).
 
 ## Como atualizar
 
