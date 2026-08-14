@@ -127,36 +127,35 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
 .pf .pfp{border-top:1px solid var(--border);padding:12px 18px}
 .pf .pfp b{display:block;font-size:11px;letter-spacing:1.3px;color:var(--muted);font-weight:700;margin-bottom:3px}
 .pf .pfp i{font-style:italic;color:var(--text);font-size:13px}
+.topbar{position:sticky;top:0;z-index:50;background:linear-gradient(135deg,#0B2E5C,#0a2547);box-shadow:0 2px 10px rgba(11,46,92,.18)}
+.topbar .wrap{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:12px 24px;flex-wrap:wrap}
+.topnav{display:flex;gap:4px;flex-wrap:wrap}
+.topnav a{white-space:nowrap;font-size:13px;font-weight:600;color:#cfe0f2;text-decoration:none;padding:7px 13px;border-radius:7px;transition:background .2s,color .2s}
+.topnav a:hover{color:#fff;background:rgba(255,255,255,.12)}
+@media(max-width:680px){.topbar .wrap{justify-content:center;text-align:center}.topnav{justify-content:center}}
+.pagetitle{padding:46px 0 4px}
+.pagetitle .eyebrow2{color:var(--amber-dark);font-weight:700;letter-spacing:3px;font-size:12.5px;margin-bottom:12px}
+.pagetitle h1{font-family:var(--serif);font-weight:800;color:var(--navy);font-size:clamp(30px,4.6vw,52px);line-height:1.04;letter-spacing:-.5px}
+section.blk{scroll-margin-top:76px}
 </style>
 </head>
 <body>
-<header class="hero">
+<header class="topbar">
   <div class="wrap">
-    <div class="hero-top">
-      <div class="brand on-dark"><div class="mk"><svg viewBox="0 0 24 24" fill="none"><rect x="4" y="3" width="16" height="18" rx="3" fill="#fff"/><path d="M12 7v10M8.5 10.5h7" stroke="#0DE3FF" stroke-width="2.2" stroke-linecap="round"/></svg></div><div class="bt"><b>Hospital Adventista</b><span>Manaus</span></div></div>
-      <div class="hero-tag">TECNOLOGIA &amp; INOVAÇÃO</div>
-    </div>
-    <div class="hero-main">
-      <div class="eyebrow">PRESTAÇÃO DE CONTAS</div>
-      <h1>Inteligência Artificial a serviço do cuidar</h1>
-      <p class="lead">O que já construímos e entregamos com IA no Hospital Adventista de Manaus — soluções, resultados e o cuidado com dados e governança.</p>
-      <div class="ctx">Uma prestação de contas transparente à liderança da rede: cada iniciativa nasce de um problema real e é medida por seu resultado.</div>
-      <div class="impact">
-        <div class="card"><div class="iv" data-t="660"><span class="u">~</span>660<span class="u">h</span></div><div class="il">horas/mês economizadas em processos assistenciais (capelania, SBAR, escalas)</div></div>
-        <div class="card"><div class="iv" data-t="145">145</div><div class="il">colaboradores usando a plataforma de IA própria (Nossa IA)</div></div>
-        <div class="card"><div class="iv" data-t="111">111</div><div class="il">indicadores estratégicos geridos e centralizados</div></div>
-        <div class="card"><div class="iv">20<span class="u">&rarr;</span>90<span class="u">%</span></div><div class="il">clientes cirúrgicos preparados já na autorização</div></div>
-      </div>
-    </div>
+    <div class="brand on-dark"><div class="mk"><svg viewBox="0 0 24 24" fill="none"><rect x="4" y="3" width="16" height="18" rx="3" fill="#fff"/><path d="M12 7v10M8.5 10.5h7" stroke="#0DE3FF" stroke-width="2.2" stroke-linecap="round"/></svg></div><div class="bt"><b>Hospital Adventista</b><span>Manaus</span></div></div>
+    <nav class="topnav">
+      <a href="#visao">Visão geral</a>
+      <a href="#plataformas">Plataformas Centrais</a>
+      <a href="#nicho">Soluções de Nicho</a>
+      <a href="#diaadia">IA no Dia a Dia</a>
+    </nav>
   </div>
 </header>
-<nav class="secnav"><div class="wrap">
-  <a href="#visao">Visão geral</a>
-  <a href="#plataformas">Plataformas Centrais</a>
-  <a href="#nicho">Soluções de Nicho</a>
-  <a href="#diaadia">IA no Dia a Dia</a>
-</div></nav>
 <div class="wrap">
+  <div class="pagetitle">
+    <div class="eyebrow2">PRESTAÇÃO DE CONTAS</div>
+    <h1>Inteligência Artificial no HAM</h1>
+  </div>
   <section class="blk" id="visao">
     <div class="sec-head"><div class="k">Visão geral</div><h2>Três Portfólios, Três Modelos Operacionais</h2>
       <p>Cada portfólio tem perfil de risco, governança e ritmo de adoção próprios.</p></div>
