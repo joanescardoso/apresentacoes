@@ -8,6 +8,8 @@ Apresentações em HTML publicadas via **GitHub Pages**.
   `https://joanescardoso.github.io/apresentacoes/`
 - **IA no HAM — Resultados e Prestação de Contas** (relatório em lista expansível) → [`resultados/index.html`](resultados/index.html)
   `https://joanescardoso.github.io/apresentacoes/resultados/`
+- **Diretoria** (cópia do deck de slides, base para versão da Diretoria) → [`diretoria/index.html`](diretoria/index.html)
+  `https://joanescardoso.github.io/apresentacoes/diretoria/`
 
 > Nesta segunda versão, telas internas têm dados sensíveis ocultados (nomes de pessoas/pacientes tarjados; valores financeiros desfocados; CPF coberto).
 
